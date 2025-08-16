@@ -10,7 +10,7 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from db import vectors_collection
 from langchain.vectorstores.mongodb_atlas import MongoDBAtlasVectorSearch
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCJE3lxV1B6fu67lJLiRYPTVd4_SiVCiac"        
+os.environ["GOOGLE_API_KEY"] = ""        
 
 
 embedding = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
